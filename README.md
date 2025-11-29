@@ -11,17 +11,17 @@ Train.csv : 8523 records with input features + target coloumn ( Item_Outlet_Sale
 Test.csv: 5681 records with input featues ( predict Outlet Sales)
 
 Key Features: 
-Feature Name	                                             Description
-Item_Identifier                                       	Unique product ID
-Item_Weight                                            	Weight of product
-Item_Fat_Content                                      	Low Fat / Regular
-Item_Visibility                                       	Product visibility in store
-Item_Type	                                              Product category
-Outlet_Identifier	                                      Unique store ID
-Outlet_Size                                           	Size of outlet (Small/Medium/High)
-Outlet_Location_Type                                  	Tier of the city
-Outlet_Type                                            	Grocery / Supermarket
-Item_Outlet_Sales                                     	Target variable
+
+Item_Identifier (Unique product ID)
+Item_Weight (Weight of product)
+Item_Fat_Content(Low Fat / Regular)
+Item_Visibility ( Product visibility in store )
+Item_Type (Product category)
+Outlet_Identifier	(Unique store ID)
+Outlet_Size (Size of outlet (Small/Medium/High) )
+Outlet_Location_Type(Tier of the city)
+Outlet_Type (Grocery / Supermarket)
+Item_Outlet_Sales(Target variable)
 
 Data Preprocessing & Feature Engineering: 
 - Handled null values using mean, median, and mode
@@ -29,8 +29,8 @@ Data Preprocessing & Feature Engineering:
 - Normalized Item_Fat_Content values
 
 Tech Stack: 
-Tool / Library                                          	Description
-Python                                                	Core programming
-Pandas, NumPy                                         	Data processing
-Google Colab                                          	Development environment
-GitHub	                                                Version control
+                    
+Python (Core programming)
+Pandas, NumPy ( Data processing )
+Google Colab ( Development environment )
+GitHub ( Version control )
